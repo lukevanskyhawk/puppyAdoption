@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.group__husky {
+    img {
+        height: 400px;
+        width: 600px;
+        justify-self: center;
+    }
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    
+}
